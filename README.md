@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src='https://media.licdn.com/dms/image/D4D22AQFLYnLCjbghzA/feedshare-shrink_2048_1536/0/1700762205879?e=1703721600&v=beta&t=FdHz_3409Daf3EODh_CdTjwrkwU_h_vHmUVRQ9LaKRw' />
+<img src='https://media.licdn.com/dms/image/D4D22AQEb-VQSEPa7vw/feedshare-shrink_2048_1536/0/1700762205776?e=1703721600&v=beta&t=qJqoN-0PuznAkE17-9lxDQeTJC4QUpYDfEXiN6UOP1E' />
+<img src='https://media.licdn.com/dms/image/D4D22AQHSwwZcE73JUw/feedshare-shrink_2048_1536/0/1700762205794?e=1703721600&v=beta&t=PO1YhjEAcrRtlM5hOGsbKV9JAieXK0WwF58JNQbGD2Y' />
+
+# I'm excited to share my latest project: a platform that delves into the world of bitcoins, built with TypeScript, Tailwind CSS and Next.js. 💻🚀
 
 ## Getting Started
 
