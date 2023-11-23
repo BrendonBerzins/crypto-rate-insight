@@ -9,8 +9,8 @@ export default function Header() {
             <div className="flex xl:flex-row flex-col justify-around items-center w-full">
                 <Image src='/home/hand-coins.webp' alt='coins' width={300} height={300}/>
                 <div className="flex gap-2 xl:items-end xl:justify-end items-center justify-center flex-col xl:text-left text-center">
-                    <h1 className="text-6xl">Discover, Find</h1>
-                    <h2 className="text-5xl gradient-text pb-5">Cryptocurrency Data</h2>
+                    <h1 className="sm:text-6xl text-5xl">Discover, Find</h1>
+                    <h2 className="sm:text-5xl gradient-text pb-5 text-4xl">Cryptocurrency Data</h2>
                     <p>Access the worlds most comprehensive cryptocurrency dataset</p>
                     <div className="flex gap-5 mt-5">
                         <Link href={'/cryptocurrency'} className="border-2 border-[#9668c7] p-3 rounded-full transition ease-in-out hover:bg-[#9668c7]">Explore</Link>
