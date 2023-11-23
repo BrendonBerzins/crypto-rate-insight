@@ -9,7 +9,7 @@ import { CgClose } from "react-icons/cg";
 export default function Navbar() {
     const [openMenu, setOpenMenu] = useState(false);
     return(
-        <nav className="flex flex-col">
+        <nav className="flex flex-col fixed w-full z-10">
             <div className="flex items-center justify-between pastel-background h-[5rem] white-color border-b border-[#2e2e38] shadow-xl">
                 <Link href={'/'} className="flex gap-1 ml-5">
                     <FaFire  className="text-2xl text-[#9668c7]"/>
@@ -27,7 +27,7 @@ export default function Navbar() {
                     {openMenu ? <CgClose /> : <HiMenuAlt3 />}
                 </button>
             </div>
-            {openMenu && 
+                {openMenu && 
                     <div className="w-full flex flex-col items-center justify-around text-center white-color p-10 menuNavbar">
                     <ul className="flex flex-col gap-10 mb-5">
                         <Link onClick={() => setOpenMenu(false)} href={'/'}>Home</Link>

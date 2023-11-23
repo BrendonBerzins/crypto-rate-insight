@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth !important;
+}
+
 .light-purple{
   background-color: #9668c7;
 }
@@ -25,6 +29,9 @@
 }
 .pastel-red{
   background-color: #d94c53;
+}
+.pastel-yellow{
+  background-color: #afb204;
 }
 .pastel-background{
   background-color: #14141e;
@@ -51,6 +58,13 @@
   font-weight: bold;
 }
 
+.gradient-text-purple-yellow {
+  background: -webkit-linear-gradient(#6c15ca, #c25400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
 body::-webkit-scrollbar {
   width: 12px;
 }
@@ -61,4 +75,21 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: #353444;
+}
+
+.menuNavbar {
+  background: rgba(0, 0, 0, 0.36);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.3px);
+  -webkit-backdrop-filter: blur(9.3px);
+  animation: openMenu 0.5s linear normal;
+}
+
+@keyframes openMenu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
